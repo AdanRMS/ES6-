@@ -1,0 +1,16 @@
+{
+  "name": "ES6-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AdanRMS/ES6-.git",
+  "author": "AdanRMS <adanraphael07@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "scripts": {
+    "dev": "babel -w ./main.js -o ./bundle.js"
+  }
+}

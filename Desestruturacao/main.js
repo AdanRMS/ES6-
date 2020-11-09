@@ -10,3 +10,10 @@ const usuario = {
 const { nome, idade, endereco:{ Estado } } = usuario;
 
 console.log(nome, idade, Estado);
+
+const arr = [1, 2, 3, 4, 5];
+
+const [ b, a, ...c ] = arr;
+
+console.log(a, b);
+console.log(c);

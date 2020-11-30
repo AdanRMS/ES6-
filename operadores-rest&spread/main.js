@@ -1,7 +1,7 @@
 // REST
 
 function soma (a, b, ...params){
-    return params
+    return params.reduce((total, next) => total + next);
 }
 
 console.log(soma(1, 2, 8));
